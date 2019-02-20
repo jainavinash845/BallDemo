@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         relativeLayout = findViewById(R.id.relative);
 
-        mScaleDetector = new ScaleGestureDetector(this, new Scale);
+        mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener());
 
         draw();
     }
