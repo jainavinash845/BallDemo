@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    //adding  commits
     private static final int INVALID_POINTER_ID = -1;
     private int mActivePointerId = INVALID_POINTER_ID;
     private ScaleGestureDetector mScaleDetector;
