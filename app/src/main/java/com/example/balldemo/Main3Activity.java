@@ -9,9 +9,6 @@ import android.view.View;
 
 public class Main3Activity extends AppCompatActivity {
 
-
-    //using onCreate method
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
