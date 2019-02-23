@@ -11,6 +11,7 @@ public class ScaleLintener extends ScaleGestureDetector.SimpleOnScaleGestureList
        mScaleFactor *= detector.getScaleFactor();
         mScaleFactor = Math.max(0.1f,Math.min(mScaleFactor,10.0f));
         //invalidate();
+        //adding new commit
         return true;
     }
 }
